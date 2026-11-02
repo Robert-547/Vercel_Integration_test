@@ -9,7 +9,7 @@ const COMMIT = process.env.VERCEL_GIT_COMMIT_SHA?.slice(0, 7) || "not from git";
 export default function Home() {
   return (
     <main>
-      <h1>OrbitOps Vercel test</h1>
+      <h1>OrbitOps Vercel test after commit</h1>
       <ul>
         <li>
           Version: <code>{VERSION}</code>
