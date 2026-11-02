@@ -15,7 +15,7 @@ app.use(cors());
 
 // Render health check path.
 app.get("/health", (req, res) => {
-  res.status(200).json({ status: "ok" });
+  res.status(200).json({ status: "health ok" });
 });
 
 app.get("/", (req, res) => {
